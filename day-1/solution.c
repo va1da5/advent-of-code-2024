@@ -88,15 +88,6 @@ Vector makeVector(int initialCapacity) {
   return vector;
 }
 
-int *parse_data(FILE *file_ptr) {
-  char buffer[8];
-
-  int left[32];
-  int right[32];
-
-  return 0;
-}
-
 void print(Vector *vector) {
   printf("[ ");
   for (int i = 0; i < vector->index; i++) {
